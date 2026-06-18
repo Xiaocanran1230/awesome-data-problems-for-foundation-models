@@ -8,14 +8,8 @@ Foundation models are increasingly limited, shaped, and governed by their data: 
 
 The taxonomy follows the DATA-FM workshop themes: data collection and curation, data attribution and valuation, legal/copyright and privacy, synthetic data and model collapse, safety/fairness, and benchmark contamination/evaluation. Borderline papers are included when their main contribution changes how data is sourced, selected, audited, or evaluated for foundation models.
 
-
-## Badge Convention
-
-Paper badges use the format `year-venue/source-color`. They reflect the latest known formal venue/source checked from official proceedings, arXiv metadata, or bibliographic search as of 2026-06-18; entries remain `arXiv`, `Survey`, `Dataset`, or `Resource` when no reliable formal venue was found.
-
 ## Contents
 
-- [Badge Convention](#badge-convention)
 - [Surveys and Position Papers](#surveys-and-position-papers)
 - [Open Corpora, Recipes, and Data-Centric Model Releases](#open-corpora-recipes-and-data-centric-model-releases)
 - [Pretraining Data Selection, Filtering, and Mixing](#pretraining-data-selection-filtering-and-mixing)
@@ -32,6 +26,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Surveys and Position Papers
 
+Broad maps of the field: taxonomies, position pieces, and problem statements that clarify why data is a first-class object in foundation model research.
+
 - ![2025 Survey](https://img.shields.io/badge/2025-Survey-9cf) [Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives](https://arxiv.org/abs/2505.21598) - Survey of offline/online data mixture optimization.
 - ![2025 Survey](https://img.shields.io/badge/2025-Survey-9cf) [A Survey on Data Contamination for Large Language Models](https://arxiv.org/abs/2502.14425) - Survey of contamination-free evaluation and contamination detection.
 - ![2025 Survey](https://img.shields.io/badge/2025-Survey-9cf) [A Survey on Efficient Large Language Model Training: From Data-centric Perspectives](https://arxiv.org/abs/2510.25817) - Data-efficient post-training taxonomy.
@@ -43,6 +39,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2023 Survey](https://img.shields.io/badge/2023-Survey-9cf) [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158) - General data-centric AI lifecycle survey.
 
 ## Open Corpora, Recipes, and Data-Centric Model Releases
+
+Open datasets, model releases, and training recipes that make the data behind foundation models inspectable, reusable, and scientifically accountable.
 
 - ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [How2Everything: Mining the Web for How-To Procedures to Evaluate and Improve LLMs](https://arxiv.org/abs/2602.08808) - Web-mined procedural data, benchmark, scoring, and RL loop.
 - ![2025 Dataset](https://img.shields.io/badge/2025-Dataset-yellow) [The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly Licensed Text](https://arxiv.org/abs/2506.05209) - Public-domain/openly licensed pretraining corpus and Comma models.
@@ -63,6 +61,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2023 Dataset](https://img.shields.io/badge/2023-Dataset-yellow) [DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108) - Multimodal data curation benchmark for CLIP-style training.
 
 ## Pretraining Data Selection, Filtering, and Mixing
+
+Work on shaping the raw diet of foundation models: which data to keep, how to weight it, when to schedule it, and how mixtures become capability.
 
 - ![2025 ICML](https://img.shields.io/badge/2025-ICML-blue) [Organize the Web: Constructing Domains Enhances Pre-Training Data Curation](https://arxiv.org/abs/2502.10341) - Topic/format domain construction for web corpora.
 - ![2025 DATA-FM](https://img.shields.io/badge/2025-DATA--FM-orange) [Data Mixing Can Induce Phase Transitions in Knowledge Acquisition](https://openreview.net/forum?id=ZKA4yiGdrA) - DATA-FM 2025 oral on knowledge-dense mixtures and thresholds.
@@ -109,6 +109,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Skill-it! A Data-Driven Skills Framework for Understanding and Training Language Models](https://arxiv.org/abs/2307.14430) - Skill-aware online sampling and curriculum.
 
 ## Post-Training and Alignment Data
+
+Papers on the data that teaches models how to act: instructions, preferences, rollouts, rewards, demonstrations, and the subtle geometry of alignment.
 
 - ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [How2Everything: Mining the Web for How-To Procedures to Evaluate and Improve LLMs](https://arxiv.org/abs/2602.08808) - Also relevant as procedural instruction data.
 - ![2026 ICLR](https://img.shields.io/badge/2026-ICLR-red) [Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective](https://arxiv.org/abs/2506.23508) - Explains RFT knowledge preservation in MLLMs through the post-training data distribution.
@@ -178,6 +180,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Continual Learning and Replay Data
 
+Methods for carrying old knowledge into new training regimes, where replay, rehearsal, and fresh data must negotiate with forgetting.
+
 - ![2026 ACL](https://img.shields.io/badge/2026-ACL-brightgreen) [FOREVER: Forgetting Curve-Inspired Memory Replay for Language Model Continual Learning](https://arxiv.org/abs/2601.03938) - ACL 2026; schedules replay by model-centric update time instead of fixed steps.
 - ![2026 ICML](https://img.shields.io/badge/2026-ICML-blue) [Retaining by Doing: The Role of On-Policy Data in Mitigating Forgetting](https://arxiv.org/abs/2510.18874) - Shows how on-policy data reduces forgetting in post-trained language models.
 - ![2025 ICML](https://img.shields.io/badge/2025-ICML-blue) [Learning Dynamics in Continual Pre-Training for Large Language Models](https://arxiv.org/abs/2505.07796) - ICML 2025 Oral; scaling law for continual pretraining with replay ratio and learning-rate effects.
@@ -189,6 +193,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [Simple and Scalable Strategies to Continually Pre-train Large Language Models](https://arxiv.org/abs/2403.08763) - Continual pretraining recipe combining learning-rate re-warming/re-decaying with old-data replay.
 
 ## Synthetic Data and Model Collapse
+
+Synthetic data is both a resource and a risk: this section tracks how generated data can amplify capability, distort distributions, or erode models over time.
 
 - ![2026 Dataset](https://img.shields.io/badge/2026-Dataset-yellow) [Multilingual TinyStories](https://arxiv.org/abs/2603.14563) - Synthetic Indic children's-story corpus.
 - ![2026 ICLR](https://img.shields.io/badge/2026-ICLR-red) [WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization](https://iclr.cc/virtual/2026/papers.html?filter=titles&search=WebShaper%3A%20Agentically%20Data%20Synthesizing%20via%20Information-Seeking%20Formalization) - Agentic information-seeking framework for synthetic data generation.
@@ -226,6 +232,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Data Attribution, Valuation, and Influence
 
+Work that asks where model behavior comes from, which examples matter, and how training data can be credited, priced, audited, or contested.
+
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [From Fairness to Truthfulness: Rethinking Data Valuation Design](https://arxiv.org/abs/2504.05563) - Mechanism design for truthful data markets.
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [Efficient Forward-Only Data Valuation for Pretrained LLMs and VLMs](https://arxiv.org/abs/2508.10180) - Forward-only influence estimation.
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [Lightweight Time Series Data Valuation on Time Series Foundation Models](https://arxiv.org/abs/2511.11648) - Data valuation for time-series foundation models.
@@ -251,6 +259,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Evaluating Data Attribution for Text-to-Image Models](https://arxiv.org/abs/2306.09345) - Evaluation setup for text-to-image attribution.
 
 ## Privacy, Copyright, Consent, and Unlearning
+
+Research on the boundaries around data: what models remember, what they should forget, what consent permits, and how provenance can be enforced.
 
 - ![2025 Resource](https://img.shields.io/badge/2025-Resource-informational) [FlexOlmo: Open Language Models for Flexible Data Use](https://arxiv.org/abs/2507.07024) - Data owners can include/exclude experts at inference time.
 - ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Pretraining Data Exposure in Large Language Models](https://arxiv.org/abs/2605.26133) - Unified survey of membership inference, contamination, and security implications.
@@ -287,6 +297,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Benchmark Contamination, Freshness, and RAG Evaluation
 
+Evaluation is also a data problem: benchmarks must stay fresh, retrieval corpora must be trustworthy, and contamination must be made visible.
+
 - ![2025 Survey](https://img.shields.io/badge/2025-Survey-9cf) [A Survey on Data Contamination for Large Language Models](https://arxiv.org/abs/2502.14425) - Contamination detection and prevention survey.
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation](https://arxiv.org/abs/2508.13144) - Benchmark reliability for scaling decisions.
 - ![2026 ICLR](https://img.shields.io/badge/2026-ICLR-red) [Scaling Generalist Data-Analytic Agents](https://arxiv.org/abs/2509.25084) - Scales and evaluates generalist agents for data analysis workflows.
@@ -320,6 +332,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Multimodal and Vision-Language Data
 
+Data for models that see, read, act, and reason across modalities, where captions, images, videos, layouts, and actions become one training substrate.
+
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [Multi-modal Synthetic Data Training and Model Collapse](https://arxiv.org/abs/2505.08803) - Synthetic feedback loops in multimodal systems.
 - ![2025 Dataset](https://img.shields.io/badge/2025-Dataset-yellow) [Safe RLHF-V](https://arxiv.org/abs/2503.17682) - Multimodal helpfulness/safety preference data.
 - ![2026 ICLR](https://img.shields.io/badge/2026-ICLR-red) [A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation](https://iclr.cc/virtual/2026/papers.html?filter=titles&search=A%20High%20Quality%20Dataset%20and%20Reliable%20Evaluation%20for%20Interleaved%20Image-Text%20Generation) - Dataset and evaluation protocol for interleaved image-text generation.
@@ -343,6 +357,8 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Safety, Fairness, and Data Poisoning
 
+The safety surface of foundation models often begins in the dataset: what is included, poisoned, filtered, refused, or overrepresented.
+
 - ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Loss Landscape Poisoning: Targeted Extraction of Unseen Training Data from LLMs](https://arxiv.org/abs/2606.17110) - Poisoning to amplify privacy leakage.
 - ![2026 ICLR](https://img.shields.io/badge/2026-ICLR-red) [Winter Soldier: Backdooring Language Models at Pre-Training with Indirect Data Poisoning](https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Winter%20Soldier%3A%20Backdooring%20Language%20Models%20at%20Pre-Training%20with%20Indirect%20Data%20Poisoning) - Indirect data-poisoning attack against pretraining.
 - ![2026 ICLR](https://img.shields.io/badge/2026-ICLR-red) [Building a Foundational Guardrail for General Agentic Systems via Synthetic Data](https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Building%20a%20Foundational%20Guardrail%20for%20General%20Agentic%20Systems%20via%20Synthetic%20Data) - Synthetic data for foundational guardrails in agentic systems.
@@ -361,7 +377,7 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 
 ## Classic References
 
-These are older than the main 2023+ window but useful for context.
+Foundational works that predate the main 2023+ window but still frame how the field thinks about data, extraction, and instruction generation.
 
 - ![2022 arXiv](https://img.shields.io/badge/2022-arXiv-lightgrey) [Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911) - Foundation models for classical data cleaning and integration.
 - ![2023 ACL](https://img.shields.io/badge/2023-ACL-brightgreen) [Self-Instruct](https://arxiv.org/abs/2212.10560) - Synthetic instruction bootstrapping.
@@ -369,6 +385,8 @@ These are older than the main 2023+ window but useful for context.
 - ![2021 USENIX](https://img.shields.io/badge/2021-USENIX-lightgrey) [Extracting Training Data from Large Language Models](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting) - Early memorization and extraction study.
 
 ## Related Workshops and Resources
+
+Community hubs, benchmarks, and tools that keep the conversation grounded beyond any single paper list.
 
 - [DATA-FM @ ICLR 2025](https://datafm.github.io/) - 2nd Workshop on Navigating and Addressing Data Problems for Foundation Models.
 - [DPFM @ ICLR 2024](https://sites.google.com/view/dpfm-iclr24/home) - First workshop on Data Problems for Foundation Models.
