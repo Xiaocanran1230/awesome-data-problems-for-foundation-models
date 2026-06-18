@@ -709,118 +709,123 @@
 - year: 2026
   title: "Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective"
   url: "https://arxiv.org/abs/2506.23508"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "IDEAL: Data Equilibrium Adaptation for Multi-Capability Language Model Alignment"
   url: "https://arxiv.org/abs/2505.12762"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "When Data is the Algorithm: A Systematic Study and Curation of Preference Optimization Datasets"
   url: "https://arxiv.org/abs/2511.10985"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Prosperity before Collapse: How Far Can Off-Policy RL Reach with Stale Data on LLMs?"
   url: "https://arxiv.org/abs/2510.01161"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling"
   url: "https://arxiv.org/abs/2509.25827"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents"
   url: "https://arxiv.org/abs/2510.24702"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
+- year: 2026
+  title: "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents"
+  url: "https://arxiv.org/abs/2605.25624"
+  category: "alignment-data"
+  tags: ["computer-use-agents", "rlvr", "verifiable-rewards", "training-environments"]
 - year: 2026
   title: "Is On-Policy Data always the Best Choice for Direct Preference Optimization-Based LM Alignment?"
   url: "https://arxiv.org/abs/2508.10530"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "RECAST: Expanding the Boundaries of LLMs' Complex Instruction Following with Multi-Constraint Data"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=RECAST%3A%20Expanding%20the%20Boundaries%20of%20LLMs%27%20Complex%20Instruction%20Following%20with%20Multi-Constraint%20Data"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Task-Aware Data Selection via Proxy-Label Enhanced Distribution Matching for LLM Finetuning"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Task-Aware%20Data%20Selection%20via%20Proxy-Label%20Enhanced%20Distribution%20Matching%20for%20LLM%20Finetuning"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Not All Documents Are What You Need for Extracting Instruction Tuning Data"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Not%20All%20Documents%20Are%20What%20You%20Need%20for%20Extracting%20Instruction%20Tuning%20Data"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Data Selection for LLM Alignment Using Fine-Grained Preferences"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Data%20Selection%20for%20LLM%20Alignment%20Using%20Fine-Grained%20Preferences"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "VisualPRM400K: An Effective Dataset for Training Multimodal Process Reward Models"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=VisualPRM400K%3A%20An%20Effective%20Dataset%20for%20Training%20Multimodal%20Process%20Reward%20Models"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Alignment through Meta-Weighted Online Sampling: Bridging the Gap between Data Generation and Preference Optimization"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Alignment%20through%20Meta-Weighted%20Online%20Sampling%3A%20Bridging%20the%20Gap%20between%20Data%20Generation%20and%20Preference%20Optimization"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=PASER%3A%20Post-Training%20Data%20Selection%20for%20Efficient%20Pruned%20Large%20Language%20Model%20Recovery"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Skywork-Reward-V2%3A%20Scaling%20Preference%20Data%20Curation%20via%20Human-AI%20Synergy"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "R-Zero: Self-Evolving Reasoning LLM from Zero Data"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=R-Zero%3A%20Self-Evolving%20Reasoning%20LLM%20from%20Zero%20Data"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Token-level Data Selection for Safe LLM Fine-tuning"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Token-level%20Data%20Selection%20for%20Safe%20LLM%20Fine-tuning"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Towards Understanding Valuable Preference Data for Large Language Model Alignment"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Towards%20Understanding%20Valuable%20Preference%20Data%20for%20Large%20Language%20Model%20Alignment"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "CPQS-Tuning: A Model Self-Perception-Based Data Filtering Algorithm for Efficient Instruction Fine-Tuning"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=CPQS-Tuning%3A%20A%20Model%20Self-Perception-Based%20Data%20Filtering%20Algorithm%20for%20Efficient%20Instruction%20Fine-Tuning"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Front-Loading%20Reasoning%3A%20The%20Synergy%20between%20Pretraining%20and%20Post-Training%20Data"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=What%27s%20In%20My%20Human%20Feedback%3F%20Learning%20Interpretable%20Descriptions%20of%20Preference%20Data"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Neuron-Aware Data Selection in Instruction Tuning for Large Language Models"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Neuron-Aware%20Data%20Selection%20in%20Instruction%20Tuning%20for%20Large%20Language%20Models"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Native Reasoning Models: Training Language Models to Reason on Unverifiable Data"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Native%20Reasoning%20Models%3A%20Training%20Language%20Models%20to%20Reason%20on%20Unverifiable%20Data"
-  category: "open-corpora"
-  tags: ["iclr-2026", "open-corpora"]
+  category: "alignment-data"
+  tags: ["iclr-2026", "alignment-data"]
 - year: 2026
   title: "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training"
   url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Common%20Corpus%3A%20The%20Largest%20Collection%20of%20Ethical%20Data%20for%20LLM%20Pre-Training"
