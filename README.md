@@ -19,7 +19,7 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - [Surveys and Position Papers](#surveys-and-position-papers)
 - [Open Corpora, Recipes, and Data-Centric Model Releases](#open-corpora-recipes-and-data-centric-model-releases)
 - [Pretraining Data Selection, Filtering, and Mixing](#pretraining-data-selection-filtering-and-mixing)
-- [Instruction, Preference, and Alignment Data](#instruction-preference-and-alignment-data)
+- [Post-Training and Alignment Data](#post-training-and-alignment-data)
 - [Continual Learning and Replay Data](#continual-learning-and-replay-data)
 - [Synthetic Data and Model Collapse](#synthetic-data-and-model-collapse)
 - [Data Attribution, Valuation, and Influence](#data-attribution-valuation-and-influence)
@@ -89,9 +89,18 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2023 NeurIPS](https://img.shields.io/badge/2023-NeurIPS-purple) [Data Selection for Language Models via Importance Resampling](https://arxiv.org/abs/2302.03169) - DSIR data selection using target distribution matching.
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Skill-it! A Data-Driven Skills Framework for Understanding and Training Language Models](https://arxiv.org/abs/2307.14430) - Skill-aware online sampling and curriculum.
 
-## Instruction, Preference, and Alignment Data
+## Post-Training and Alignment Data
 
 - ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [How2Everything: Mining the Web for How-To Procedures to Evaluate and Improve LLMs](https://arxiv.org/abs/2602.08808) - Also relevant as procedural instruction data.
+- ![2026 ICML](https://img.shields.io/badge/2026-ICML-blue) [Entropy-Aware On-Policy Distillation of Language Models](https://arxiv.org/abs/2603.07079) - Uses entropy to select and weight on-policy student rollouts for distillation.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734) - Iteratively samples the student's own reasoning traces and distills higher-quality rollouts.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016) - Analyzes when on-policy distillation data helps or fails and gives a practical training recipe.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes](https://arxiv.org/abs/2603.25562) - Studies failure modes from student-generated data and simple stabilizing fixes.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers](https://arxiv.org/abs/2606.12507) - Generates and filters self-distillation data with rubric-style guidance instead of external verifiers.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Beyond Rejection Sampling: Trajectory Fusion for Scaling Mathematical Reasoning](https://arxiv.org/abs/2602.04391) - Recombines partially correct reasoning trajectories rather than discarding failed rollouts.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [RIFT: Repurposing Negative Samples via Reward-Informed Fine-Tuning](https://arxiv.org/abs/2601.09253) - Reuses negative on-policy samples as training data through reward-informed fine-tuning.
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [$\mathcal{X}$-KD: General Experiential Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2602.12674) - Distills experiential interaction data for general LLM post-training.
+- ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [Black-Box On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2511.10643) - Distills from black-box teachers using student-policy queries and generated outputs.
 - ![2026 ICML](https://img.shields.io/badge/2026-ICML-blue) [TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins](https://arxiv.org/abs/2606.17660) - Predicts LLM fine-tuning outcomes before full training, including data-quality and hyperparameter sensitivity.
 - ![2026 ICML](https://img.shields.io/badge/2026-ICML-blue) [The Quality-Utility Paradox: Why High-Reward Data Impairs Small Model Mathematical Reasoning](https://arxiv.org/abs/2606.16152) - Studies when high-reward distillation traces degrade small-model reasoning.
 - ![2026 ICML](https://img.shields.io/badge/2026-ICML-blue) [How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data](https://arxiv.org/abs/2604.14164) - Synthesizes student-consistent reasoning SFT data from teacher-student cooperation.
@@ -109,7 +118,12 @@ Paper badges use the format `year-venue/source-color`. They reflect the latest k
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333) - Gradient-similarity selection for targeted skills.
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [Superfiltering: Weak-to-Strong Data Filtering for Fast Instruction-Tuning](https://arxiv.org/abs/2402.00530) - Small models filter instruction data for larger models.
 - ![2024 ICLR](https://img.shields.io/badge/2024-ICLR-red) [What Makes Good Data for Alignment?](https://arxiv.org/abs/2312.15685) - Complexity, quality, diversity, and DEITA selection.
+- ![2024 ICLR](https://img.shields.io/badge/2024-ICLR-red) [MiniLLM: On-Policy Distillation of Large Language Models](https://arxiv.org/abs/2306.08543) - On-policy LLM distillation using student-generated responses and reverse-KL training.
+- ![2024 ICLR](https://img.shields.io/badge/2024-ICLR-red) [On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes](https://arxiv.org/abs/2306.13649) - Generalized KD framework that learns from student-generated mistakes.
+- ![2024 ICML](https://img.shields.io/badge/2024-ICML-blue) [DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898) - Distillation framework with adaptive off-policy/on-policy data mixing.
+- ![2024 ICML](https://img.shields.io/badge/2024-ICML-blue) [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020) - Iteratively creates instruction and preference data using the model as judge.
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2406.08464) - Synthetic alignment data extraction from aligned chat templates.
+- ![2024 TMLR](https://img.shields.io/badge/2024-TMLR-green) [Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585) - ReST^EM scales problem-solving by generating, filtering, and iterating over model-produced solutions.
 - ![2023 NeurIPS](https://img.shields.io/badge/2023-NeurIPS-purple) [LIMA: Less Is More for Alignment](https://proceedings.neurips.cc/paper_files/paper/2023/hash/ac662d74829e4407ce1d126477f4a03a-Abstract-Conference.html) - Carefully curated 1K examples for supervised alignment.
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [AlpaGasus: Training A Better Alpaca with Fewer Data](https://arxiv.org/abs/2307.08701) - LLM-filtered Alpaca data.
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Instruction Mining: Instruction Data Selection for Tuning Large Language Models](https://arxiv.org/abs/2307.06290) - Automatic instruction data selection.

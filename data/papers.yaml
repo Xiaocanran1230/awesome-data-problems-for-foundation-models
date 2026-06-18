@@ -122,6 +122,51 @@
   category: "alignment-data"
   tags: ["synthetic-data", "instruction-tuning"]
 - year: 2026
+  title: "Entropy-Aware On-Policy Distillation of Language Models"
+  url: "https://arxiv.org/abs/2603.07079"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "rollout-selection", "entropy", "icml-2026"]
+- year: 2026
+  title: "Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models"
+  url: "https://arxiv.org/abs/2601.18734"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "reasoning", "self-training"]
+- year: 2026
+  title: "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe"
+  url: "https://arxiv.org/abs/2604.13016"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "training-recipe", "data-quality"]
+- year: 2026
+  title: "Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes"
+  url: "https://arxiv.org/abs/2603.25562"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "failure-modes", "student-generated-data"]
+- year: 2026
+  title: "Rubric-Guided Self-Distillation: Post-Training Without Rubric Verifiers"
+  url: "https://arxiv.org/abs/2606.12507"
+  category: "alignment-data"
+  tags: ["self-distillation", "rubric-guidance", "post-training"]
+- year: 2026
+  title: "Beyond Rejection Sampling: Trajectory Fusion for Scaling Mathematical Reasoning"
+  url: "https://arxiv.org/abs/2602.04391"
+  category: "alignment-data"
+  tags: ["trajectory-data", "reasoning", "rejection-sampling"]
+- year: 2026
+  title: "RIFT: Repurposing Negative Samples via Reward-Informed Fine-Tuning"
+  url: "https://arxiv.org/abs/2601.09253"
+  category: "alignment-data"
+  tags: ["negative-samples", "reward-informed", "fine-tuning"]
+- year: 2026
+  title: "$\\mathcal{X}$-KD: General Experiential Knowledge Distillation for Large Language Models"
+  url: "https://arxiv.org/abs/2602.12674"
+  category: "alignment-data"
+  tags: ["experiential-data", "knowledge-distillation", "post-training"]
+- year: 2025
+  title: "Black-Box On-Policy Distillation of Large Language Models"
+  url: "https://arxiv.org/abs/2511.10643"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "black-box-teacher", "student-generated-data"]
+- year: 2026
   title: "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins"
   url: "https://arxiv.org/abs/2606.17660"
   category: "alignment-data"
@@ -131,6 +176,31 @@
   url: "https://arxiv.org/abs/2606.16152"
   category: "alignment-data"
   tags: ["distillation-data", "reasoning", "data-quality", "icml-2026"]
+- year: 2024
+  title: "MiniLLM: On-Policy Distillation of Large Language Models"
+  url: "https://arxiv.org/abs/2306.08543"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "student-generated-data", "iclr-2024"]
+- year: 2024
+  title: "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes"
+  url: "https://arxiv.org/abs/2306.13649"
+  category: "alignment-data"
+  tags: ["on-policy-distillation", "self-generated-mistakes", "iclr-2024"]
+- year: 2024
+  title: "DistiLLM: Towards Streamlined Distillation for Large Language Models"
+  url: "https://arxiv.org/abs/2402.03898"
+  category: "alignment-data"
+  tags: ["knowledge-distillation", "data-mixing", "icml-2024"]
+- year: 2024
+  title: "Self-Rewarding Language Models"
+  url: "https://arxiv.org/abs/2401.10020"
+  category: "alignment-data"
+  tags: ["self-reward", "preference-data", "icml-2024"]
+- year: 2024
+  title: "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models"
+  url: "https://arxiv.org/abs/2312.06585"
+  category: "alignment-data"
+  tags: ["self-training", "model-generated-data", "tmlr-2024"]
 - year: 2023
   title: "LIMA: Less Is More for Alignment"
   url: "https://arxiv.org/abs/2305.11206"
