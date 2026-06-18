@@ -126,6 +126,46 @@
   url: "https://arxiv.org/abs/2310.01377"
   category: "alignment-data"
   tags: ["preference-data", "ai-feedback"]
+- year: 2026
+  title: "FOREVER: Forgetting Curve-Inspired Memory Replay for Language Model Continual Learning"
+  url: "https://arxiv.org/abs/2601.03938"
+  category: "continual-replay-data"
+  tags: ["memory-replay", "continual-learning", "llm", "acl-2026"]
+- year: 2025
+  title: "Learning Dynamics in Continual Pre-Training for Large Language Models"
+  url: "https://arxiv.org/abs/2505.07796"
+  category: "continual-replay-data"
+  tags: ["continual-pretraining", "replay-ratio", "scaling-law", "icml-2025"]
+- year: 2025
+  title: "Revisiting Replay and Gradient Alignment for Continual Pre-Training of Large Language Models"
+  url: "https://arxiv.org/abs/2508.01908"
+  category: "continual-replay-data"
+  tags: ["experience-replay", "gradient-alignment", "continual-pretraining", "llm"]
+- year: 2024
+  title: "SEEKR: Selective Attention-Guided Knowledge Retention for Continual Learning of Large Language Models"
+  url: "https://arxiv.org/abs/2411.06171"
+  category: "continual-replay-data"
+  tags: ["replay", "attention-distillation", "continual-learning", "emnlp-2024"]
+- year: 2024
+  title: "CLIP with Generative Latent Replay: a Strong Baseline for Incremental Learning"
+  url: "https://arxiv.org/abs/2407.15793"
+  category: "continual-replay-data"
+  tags: ["generative-replay", "clip", "vision-language", "bmvc-2024"]
+- year: 2024
+  title: "InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions"
+  url: "https://arxiv.org/abs/2403.11435"
+  category: "continual-replay-data"
+  tags: ["instruction-tuning", "replay-selection", "continual-learning", "naacl-2024"]
+- year: 2024
+  title: "Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal"
+  url: "https://arxiv.org/abs/2403.01244"
+  category: "continual-replay-data"
+  tags: ["synthetic-rehearsal", "continual-learning", "llm", "acl-2024"]
+- year: 2024
+  title: "Simple and Scalable Strategies to Continually Pre-train Large Language Models"
+  url: "https://arxiv.org/abs/2403.08763"
+  category: "continual-replay-data"
+  tags: ["old-data-replay", "continual-pretraining", "llm"]
 - year: 2025
   title: "Multi-modal Synthetic Data Training and Model Collapse"
   url: "https://arxiv.org/abs/2505.08803"

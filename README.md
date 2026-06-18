@@ -14,6 +14,7 @@ The taxonomy follows the DATA-FM workshop themes: data collection and curation, 
 - [Open Corpora, Recipes, and Data-Centric Model Releases](#open-corpora-recipes-and-data-centric-model-releases)
 - [Pretraining Data Selection, Filtering, and Mixing](#pretraining-data-selection-filtering-and-mixing)
 - [Instruction, Preference, and Alignment Data](#instruction-preference-and-alignment-data)
+- [Continual Learning and Replay Data](#continual-learning-and-replay-data)
 - [Synthetic Data and Model Collapse](#synthetic-data-and-model-collapse)
 - [Data Attribution, Valuation, and Influence](#data-attribution-valuation-and-influence)
 - [Privacy, Copyright, Consent, and Unlearning](#privacy-copyright-consent-and-unlearning)
@@ -81,6 +82,17 @@ The taxonomy follows the DATA-FM workshop themes: data collection and curation, 
 - [2023] [UltraFeedback: Boosting Language Models with Scaled AI Feedback](https://arxiv.org/abs/2310.01377) - Large-scale AI feedback preference data.
 - [2023] [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.02707) - Explanation-trace imitation data.
 - [2022] [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) - Pre-2023 anchor for self-generated instruction data.
+
+## Continual Learning and Replay Data
+
+- [2026] [FOREVER: Forgetting Curve-Inspired Memory Replay for Language Model Continual Learning](https://arxiv.org/abs/2601.03938) - ACL 2026; schedules replay by model-centric update time instead of fixed steps.
+- [2025] [Learning Dynamics in Continual Pre-Training for Large Language Models](https://arxiv.org/abs/2505.07796) - ICML 2025 Oral; scaling law for continual pretraining with replay ratio and learning-rate effects.
+- [2025] [Revisiting Replay and Gradient Alignment for Continual Pre-Training of Large Language Models](https://arxiv.org/abs/2508.01908) - Large-scale replay and meta-experience replay study for multilingual LLM continual pretraining.
+- [2024] [SEEKR: Selective Attention-Guided Knowledge Retention for Continual Learning of Large Language Models](https://arxiv.org/abs/2411.06171) - EMNLP 2024; attention distillation for data-efficient replay-based continual learning.
+- [2024] [CLIP with Generative Latent Replay: a Strong Baseline for Incremental Learning](https://arxiv.org/abs/2407.15793) - BMVC 2024 Oral; generative latent replay for adapting CLIP while preserving zero-shot behavior.
+- [2024] [InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions](https://arxiv.org/abs/2403.11435) - NAACL 2024; instruction-aware replay selection by task similarity and instruction information.
+- [2024] [Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal](https://arxiv.org/abs/2403.01244) - ACL 2024 main; synthetic rehearsal when previous training data is unavailable.
+- [2024] [Simple and Scalable Strategies to Continually Pre-train Large Language Models](https://arxiv.org/abs/2403.08763) - Continual pretraining recipe combining learning-rate re-warming/re-decaying with old-data replay.
 
 ## Synthetic Data and Model Collapse
 
