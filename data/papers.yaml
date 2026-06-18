@@ -706,3 +706,463 @@
   url: "https://arxiv.org/abs/2502.11411"
   category: "safety-data"
   tags: ["unsafe-data", "data-attribution", "filtering", "icml-2026"]
+- year: 2026
+  title: "Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective"
+  url: "https://arxiv.org/abs/2506.23508"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "IDEAL: Data Equilibrium Adaptation for Multi-Capability Language Model Alignment"
+  url: "https://arxiv.org/abs/2505.12762"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "When Data is the Algorithm: A Systematic Study and Curation of Preference Optimization Datasets"
+  url: "https://arxiv.org/abs/2511.10985"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Prosperity before Collapse: How Far Can Off-Policy RL Reach with Stale Data on LLMs?"
+  url: "https://arxiv.org/abs/2510.01161"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Overthinking Reduction with Decoupled Rewards and Curriculum Data Scheduling"
+  url: "https://arxiv.org/abs/2509.25827"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents"
+  url: "https://arxiv.org/abs/2510.24702"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Is On-Policy Data always the Best Choice for Direct Preference Optimization-Based LM Alignment?"
+  url: "https://arxiv.org/abs/2508.10530"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "RECAST: Expanding the Boundaries of LLMs' Complex Instruction Following with Multi-Constraint Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=RECAST%3A%20Expanding%20the%20Boundaries%20of%20LLMs%27%20Complex%20Instruction%20Following%20with%20Multi-Constraint%20Data"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Task-Aware Data Selection via Proxy-Label Enhanced Distribution Matching for LLM Finetuning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Task-Aware%20Data%20Selection%20via%20Proxy-Label%20Enhanced%20Distribution%20Matching%20for%20LLM%20Finetuning"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Not All Documents Are What You Need for Extracting Instruction Tuning Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Not%20All%20Documents%20Are%20What%20You%20Need%20for%20Extracting%20Instruction%20Tuning%20Data"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Data Selection for LLM Alignment Using Fine-Grained Preferences"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Data%20Selection%20for%20LLM%20Alignment%20Using%20Fine-Grained%20Preferences"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "VisualPRM400K: An Effective Dataset for Training Multimodal Process Reward Models"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=VisualPRM400K%3A%20An%20Effective%20Dataset%20for%20Training%20Multimodal%20Process%20Reward%20Models"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Alignment through Meta-Weighted Online Sampling: Bridging the Gap between Data Generation and Preference Optimization"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Alignment%20through%20Meta-Weighted%20Online%20Sampling%3A%20Bridging%20the%20Gap%20between%20Data%20Generation%20and%20Preference%20Optimization"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=PASER%3A%20Post-Training%20Data%20Selection%20for%20Efficient%20Pruned%20Large%20Language%20Model%20Recovery"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Skywork-Reward-V2%3A%20Scaling%20Preference%20Data%20Curation%20via%20Human-AI%20Synergy"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "R-Zero: Self-Evolving Reasoning LLM from Zero Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=R-Zero%3A%20Self-Evolving%20Reasoning%20LLM%20from%20Zero%20Data"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Token-level Data Selection for Safe LLM Fine-tuning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Token-level%20Data%20Selection%20for%20Safe%20LLM%20Fine-tuning"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Towards Understanding Valuable Preference Data for Large Language Model Alignment"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Towards%20Understanding%20Valuable%20Preference%20Data%20for%20Large%20Language%20Model%20Alignment"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "CPQS-Tuning: A Model Self-Perception-Based Data Filtering Algorithm for Efficient Instruction Fine-Tuning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=CPQS-Tuning%3A%20A%20Model%20Self-Perception-Based%20Data%20Filtering%20Algorithm%20for%20Efficient%20Instruction%20Fine-Tuning"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Front-Loading%20Reasoning%3A%20The%20Synergy%20between%20Pretraining%20and%20Post-Training%20Data"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=What%27s%20In%20My%20Human%20Feedback%3F%20Learning%20Interpretable%20Descriptions%20of%20Preference%20Data"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Neuron-Aware Data Selection in Instruction Tuning for Large Language Models"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Neuron-Aware%20Data%20Selection%20in%20Instruction%20Tuning%20for%20Large%20Language%20Models"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Native Reasoning Models: Training Language Models to Reason on Unverifiable Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Native%20Reasoning%20Models%3A%20Training%20Language%20Models%20to%20Reason%20on%20Unverifiable%20Data"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Common%20Corpus%3A%20The%20Largest%20Collection%20of%20Ethical%20Data%20for%20LLM%20Pre-Training"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "GneissWeb: Preparing High Quality Data for LLMs at Scale"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=GneissWeb%3A%20Preparing%20High%20Quality%20Data%20for%20LLMs%20at%20Scale"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "OpenThoughts: Data Recipes for Reasoning Models"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=OpenThoughts%3A%20Data%20Recipes%20for%20Reasoning%20Models"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Nemotron-CC-Math: A 133 Billion-Token-Scale High Quality Math Pretraining Dataset"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Nemotron-CC-Math%3A%20A%20133%20Billion-Token-Scale%20High%20Quality%20Math%20Pretraining%20Dataset"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Relational Transformer: Toward Zero-Shot Foundation Models for Relational Data"
+  url: "https://arxiv.org/abs/2510.06377"
+  category: "open-corpora"
+  tags: ["iclr-2026", "open-corpora"]
+- year: 2026
+  title: "Beyond URLs: Metadata Diversity and Position for Efficient LLM Pretraining"
+  url: "https://arxiv.org/abs/2511.21613"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Fast Data Mixture Optimization via Gradient Descent"
+  url: "https://arxiv.org/abs/2606.14971"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Rewriting Pre-Training Data Boosts LLM Performance in Math and Code"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Rewriting%20Pre-Training%20Data%20Boosts%20LLM%20Performance%20in%20Math%20and%20Code"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Matched Data, Better Models: Target Aligned Data Filtering with Sparse Autoencoders"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Matched%20Data%2C%20Better%20Models%3A%20Target%20Aligned%20Data%20Filtering%20with%20Sparse%20Autoencoders"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Scaling Laws Revisited: Modeling the Role of Data Quality in Language Model Pretraining"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Scaling%20Laws%20Revisited%3A%20Modeling%20the%20Role%20of%20Data%20Quality%20in%20Language%20Model%20Pretraining"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Can Small Training Runs Reliably Guide Data Curation? Rethinking Proxy-Model Practice"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Can%20Small%20Training%20Runs%20Reliably%20Guide%20Data%20Curation%3F%20Rethinking%20Proxy-Model%20Practice"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Rethinking Data Curation in LLM Training: Online Reweighting Offers Better Generalization than Offline Methods"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Rethinking%20Data%20Curation%20in%20LLM%20Training%3A%20Online%20Reweighting%20Offers%20Better%20Generalization%20than%20Offline%20Methods"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Beyond Length: Quantifying Long-Range Information for Long-Context LLM Pretraining Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Beyond%20Length%3A%20Quantifying%20Long-Range%20Information%20for%20Long-Context%20LLM%20Pretraining%20Data"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=How%20Learning%20Rate%20Decay%20Wastes%20Your%20Best%20Data%20in%20Curriculum-Based%20LLM%20Pretraining"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Predicting Training Re-evaluation Curves Enables Effective Data Curriculums for LLMs"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Predicting%20Training%20Re-evaluation%20Curves%20Enables%20Effective%20Data%20Curriculums%20for%20LLMs"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Joint Selection for Large-Scale Pre-Training Data via Policy Gradient-based Mask Learning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Joint%20Selection%20for%20Large-Scale%20Pre-Training%20Data%20via%20Policy%20Gradient-based%20Mask%20Learning"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Reformulation for Pretraining Data Augmentation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Reformulation%20for%20Pretraining%20Data%20Augmentation"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "DUET: Optimizing LLM Training Data Mixtures via Noisy Feedback from Unseen, Downstream Evaluation Tasks"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=DUET%3A%20Optimizing%20LLM%20Training%20Data%20Mixtures%20via%20Noisy%20Feedback%20from%20Unseen%2C%20Downstream%20Evaluation%20Tasks"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "Data-Centric Lessons To Improve Speech-Language Pretraining"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Data-Centric%20Lessons%20To%20Improve%20Speech-Language%20Pretraining"
+  category: "pretraining-data"
+  tags: ["iclr-2026", "pretraining-data"]
+- year: 2026
+  title: "WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=WebShaper%3A%20Agentically%20Data%20Synthesizing%20via%20Information-Seeking%20Formalization"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Scaling Knowledge Graph Construction through Synthetic Data Generation and Distillation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Scaling%20Knowledge%20Graph%20Construction%20through%20Synthetic%20Data%20Generation%20and%20Distillation"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Repurposing Synthetic Data for Fine-grained Search Agent Supervision"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Repurposing%20Synthetic%20Data%20for%20Fine-grained%20Search%20Agent%20Supervision"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Learning from Synthetic Data Improves Multi-hop Reasoning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Learning%20from%20Synthetic%20Data%20Improves%20Multi-hop%20Reasoning"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Goedel-Prover-V2%3A%20Scaling%20Formal%20Theorem%20Proving%20with%20Scaffolded%20Data%20Synthesis%20and%20Self-Correction"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Game-RL%3A%20Synthesizing%20Multimodal%20Verifiable%20Game%20Data%20to%20Boost%20VLMs%27%20General%20Reasoning"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Open Data Synthesis for Deep Research"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Open%20Data%20Synthesis%20for%20Deep%20Research"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "OptimSyn: Influence-Guided Rubrics Optimization for Synthetic Data Generation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=OptimSyn%3A%20Influence-Guided%20Rubrics%20Optimization%20for%20Synthetic%20Data%20Generation"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Webscale-RL%3A%20Automated%20Data%20Pipeline%20for%20Scaling%20RL%20Data%20to%20Pretraining%20Levels"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "DESIGNER: Design-Logic-Guided Multidisciplinary Data Synthesis for LLM Reasoning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=DESIGNER%3A%20Design-Logic-Guided%20Multidisciplinary%20Data%20Synthesis%20for%20LLM%20Reasoning"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Pedagogically-Inspired Data Synthesis for Language Model Knowledge Distillation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Pedagogically-Inspired%20Data%20Synthesis%20for%20Language%20Model%20Knowledge%20Distillation"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=WebSailor-V2%3A%20Bridging%20the%20Chasm%20to%20Proprietary%20Agents%20via%20Synthetic%20Data%20and%20Scalable%20Reinforcement%20Learning"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Expanding%20the%20Capability%20Frontier%20of%20LLM%20Agents%20with%20ZPD-Guided%20Data%20Synthesis"
+  category: "synthetic-data"
+  tags: ["iclr-2026", "synthetic-data"]
+- year: 2026
+  title: "Bayesian Influence Functions for Hessian-Free Data Attribution"
+  url: "https://arxiv.org/abs/2509.26544"
+  category: "data-attribution"
+  tags: ["iclr-2026", "data-attribution"]
+- year: 2026
+  title: "Learning to Weight Parameters for Training Data Attribution"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Learning%20to%20Weight%20Parameters%20for%20Training%20Data%20Attribution"
+  category: "data-attribution"
+  tags: ["iclr-2026", "data-attribution"]
+- year: 2026
+  title: "Data Provenance for Image Auto-Regressive Generation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Data%20Provenance%20for%20Image%20Auto-Regressive%20Generation"
+  category: "data-attribution"
+  tags: ["iclr-2026", "data-attribution"]
+- year: 2026
+  title: "First is Not Really Better Than Last: Evaluating Layer Choice and Aggregation Strategies in Language Model Data Influence Estimation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=First%20is%20Not%20Really%20Better%20Than%20Last%3A%20Evaluating%20Layer%20Choice%20and%20Aggregation%20Strategies%20in%20Language%20Model%20Data%20Influence%20Estimation"
+  category: "data-attribution"
+  tags: ["iclr-2026", "data-attribution"]
+- year: 2026
+  title: "Influence Dynamics and Stagewise Data Attribution"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Influence%20Dynamics%20and%20Stagewise%20Data%20Attribution"
+  category: "data-attribution"
+  tags: ["iclr-2026", "data-attribution"]
+- year: 2026
+  title: "Influence-Preserving Proxies for Gradient-Based Data Selection in LLM FineTuning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Influence-Preserving%20Proxies%20for%20Gradient-Based%20Data%20Selection%20in%20LLM%20FineTuning"
+  category: "data-attribution"
+  tags: ["iclr-2026", "data-attribution"]
+- year: 2026
+  title: "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models"
+  url: "https://arxiv.org/abs/2510.09259"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Detecting Data Contamination in LLMs via In-Context Learning"
+  url: "https://arxiv.org/abs/2510.27055"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "WaterDrum: Watermark-based Data-centric Unlearning Metric"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=WaterDrum%3A%20Watermark-based%20Data-centric%20Unlearning%20Metric"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Curation Leaks: Membership Inference Attacks against Data Curation for Machine Learning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Curation%20Leaks%3A%20Membership%20Inference%20Attacks%20against%20Data%20Curation%20for%20Machine%20Learning"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Operationalizing Data Minimization for Privacy-Preserving LLM Prompting"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Operationalizing%20Data%20Minimization%20for%20Privacy-Preserving%20LLM%20Prompting"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Be%20Careful%20When%20Fine-tuning%20On%20Open-Source%20LLMs%3A%20Your%20Fine-tuning%20Data%20Could%20Be%20Secretly%20Stolen%21"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data in LLMs"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Tab-MIA%3A%20A%20Benchmark%20Dataset%20for%20Membership%20Inference%20Attacks%20on%20Tabular%20Data%20in%20LLMs"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Natural Identifiers for Privacy and Data Audits in Large Language Models"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Natural%20Identifiers%20for%20Privacy%20and%20Data%20Audits%20in%20Large%20Language%20Models"
+  category: "privacy"
+  tags: ["iclr-2026", "privacy"]
+- year: 2026
+  title: "Scaling Generalist Data-Analytic Agents"
+  url: "https://arxiv.org/abs/2509.25084"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "Towards Self-Evolving Agent Benchmarks: Validatable Agent Trajectory via Test-Time Exploration"
+  url: "https://arxiv.org/abs/2510.00415"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents"
+  url: "https://arxiv.org/abs/2509.23415"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=DeepMath-103K%3A%20A%20Large-Scale%2C%20Challenging%2C%20Decontaminated%2C%20and%20Verifiable%20Mathematical%20Dataset%20for%20Advancing%20Reasoning"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "The Quest for Efficient Reasoning: A Data-Centric Benchmark to CoT Distillation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=The%20Quest%20for%20Efficient%20Reasoning%3A%20A%20Data-Centric%20Benchmark%20to%20CoT%20Distillation"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "Harnessing Temporal Databases for Systematic Evaluation of Factual Time-Sensitive Question-Answering in LLMs"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Harnessing%20Temporal%20Databases%20for%20Systematic%20Evaluation%20of%20Factual%20Time-Sensitive%20Question-Answering%20in%20LLMs"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "Rethinking LLM Evaluation: Can We Evaluate LLMs with 200x Less Data?"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Rethinking%20LLM%20Evaluation%3A%20Can%20We%20Evaluate%20LLMs%20with%20200%C3%97%20Less%20Data%3F"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "KRAMABENCH: A Benchmark for AI Systems on Data-to-Insight Pipelines over Data Lakes"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=KRAMABENCH%3A%20A%20Benchmark%20for%20AI%20Systems%20on%20Data-to-Insight%20Pipelines%20over%20Data%20Lakes"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=DAComp%3A%20Benchmarking%20Data%20Agents%20across%20the%20Full%20Data%20Intelligence%20Lifecycle"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=DARE-bench%3A%20Evaluating%20Modeling%20and%20Instruction%20Fidelity%20of%20LLMs%20in%20Data%20Science"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "WebDS: An End-to-End Benchmark for Web-based Data Science"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=WebDS%3A%20An%20End-to-End%20Benchmark%20for%20Web-based%20Data%20Science"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=MedAgentGym%3A%20A%20Scalable%20Agentic%20Training%20Environment%20for%20Code-Centric%20Reasoning%20in%20Biomedical%20Data%20Science"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=HalluGuard%3A%20Demystifying%20Data-Driven%20and%20Reasoning-Driven%20Hallucinations%20in%20LLMs"
+  category: "evaluation"
+  tags: ["iclr-2026", "evaluation"]
+- year: 2026
+  title: "A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=A%20High%20Quality%20Dataset%20and%20Reliable%20Evaluation%20for%20Interleaved%20Image-Text%20Generation"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "Demystifying Supervision Data Generalization in Multimodal LMs"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Demystifying%20Supervision%20Data%20Generalization%20in%20Multimodal%20LMs"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "Omni-Captioner: Data Pipeline, Models, and Benchmark for Omni Detailed Perception"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Omni-Captioner%3A%20Data%20Pipeline%2C%20Models%2C%20and%20Benchmark%20for%20Omni%20Detailed%20Perception"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "Zebra-CoT: A Dataset for Interleaved Vision-Language Reasoning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Zebra-CoT%3A%20A%20Dataset%20for%20Interleaved%20Vision-Language%20Reasoning"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "Multi-modal Data Spectrum: Multi-modal Datasets are Multi-dimensional"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Multi-modal%20Data%20Spectrum%3A%20Multi-modal%20Datasets%20are%20Multi-dimensional"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=ScaleCUA%3A%20Scaling%20Open-Source%20Computer%20Use%20Agents%20with%20Cross-Platform%20Data"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=FLUX-Reason-6M%20%26%20PRISM-Bench%3A%20A%20Million-Scale%20Text-to-Image%20Reasoning%20Dataset%20and%20Comprehensive%20Benchmark"
+  category: "multimodal-data"
+  tags: ["iclr-2026", "multimodal-data"]
+- year: 2026
+  title: "Winter Soldier: Backdooring Language Models at Pre-Training with Indirect Data Poisoning"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Winter%20Soldier%3A%20Backdooring%20Language%20Models%20at%20Pre-Training%20with%20Indirect%20Data%20Poisoning"
+  category: "safety-data"
+  tags: ["iclr-2026", "safety-data"]
+- year: 2026
+  title: "Building a Foundational Guardrail for General Agentic Systems via Synthetic Data"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Building%20a%20Foundational%20Guardrail%20for%20General%20Agentic%20Systems%20via%20Synthetic%20Data"
+  category: "safety-data"
+  tags: ["iclr-2026", "safety-data"]
+- year: 2026
+  title: "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs"
+  url: "https://iclr.cc/virtual/2026/papers.html?filter=titles&search=Deep%20Ignorance%3A%20Filtering%20Pretraining%20Data%20Builds%20Tamper-Resistant%20Safeguards%20into%20Open-Weight%20LLMs"
+  category: "safety-data"
+  tags: ["iclr-2026", "safety-data"]
