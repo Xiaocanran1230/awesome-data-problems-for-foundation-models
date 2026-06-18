@@ -66,6 +66,11 @@
   url: "https://openreview.net/forum?id=ZKA4yiGdrA"
   category: "pretraining-data"
   tags: ["data-mixture", "knowledge-acquisition"]
+- year: 2026
+  title: "Active Learning with Low-Rank Structure for Data Selection"
+  url: "https://arxiv.org/abs/2606.16045"
+  category: "pretraining-data"
+  tags: ["data-selection", "active-learning", "icml-2026"]
 - year: 2024
   title: "Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance"
   url: "https://arxiv.org/abs/2403.16952"
@@ -116,6 +121,16 @@
   url: "https://arxiv.org/abs/2406.08464"
   category: "alignment-data"
   tags: ["synthetic-data", "instruction-tuning"]
+- year: 2026
+  title: "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins"
+  url: "https://arxiv.org/abs/2606.17660"
+  category: "alignment-data"
+  tags: ["fine-tuning", "performance-prediction", "data-quality", "icml-2026"]
+- year: 2026
+  title: "The Quality-Utility Paradox: Why High-Reward Data Impairs Small Model Mathematical Reasoning"
+  url: "https://arxiv.org/abs/2606.16152"
+  category: "alignment-data"
+  tags: ["distillation-data", "reasoning", "data-quality", "icml-2026"]
 - year: 2023
   title: "LIMA: Less Is More for Alignment"
   url: "https://arxiv.org/abs/2305.11206"
@@ -211,6 +226,21 @@
   url: "https://arxiv.org/abs/2407.14933"
   category: "data-governance"
   tags: ["consent", "web-data", "copyright"]
+- year: 2026
+  title: "From Prompts to Responses: Dual-Sided Data Leakage and Defense in Split Large Language Models"
+  url: "https://arxiv.org/abs/2606.14210"
+  category: "privacy"
+  tags: ["data-leakage", "split-learning", "llm", "icml-2026"]
+- year: 2026
+  title: "Minim: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization"
+  url: "https://arxiv.org/abs/2606.13949"
+  category: "privacy"
+  tags: ["privacy", "agents", "sanitization", "icml-2026"]
+- year: 2026
+  title: "ForceForget: Reinforcement Concept Removal for Enhancing Safety in Text-to-Image Models"
+  url: "https://arxiv.org/abs/2606.14351"
+  category: "unlearning"
+  tags: ["concept-removal", "text-to-image", "safety", "icml-2026"]
 - year: 2023
   title: "The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI"
   url: "https://arxiv.org/abs/2310.16787"
@@ -241,6 +271,26 @@
   url: "https://arxiv.org/abs/2406.19314"
   category: "evaluation"
   tags: ["contamination-free", "dynamic-benchmark"]
+- year: 2026
+  title: "CODA-BENCH: Can Code Agents Handle Data-Intensive Tasks?"
+  url: "https://arxiv.org/abs/2606.15300"
+  category: "evaluation"
+  tags: ["agent-benchmark", "data-intensive-tasks", "code-agents", "icml-2026"]
+- year: 2026
+  title: "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use"
+  url: "https://arxiv.org/abs/2605.02964"
+  category: "evaluation"
+  tags: ["reward-hacking", "tool-use", "agent-benchmark", "icml-2026"]
+- year: 2026
+  title: "A Benchmark and Framework for Evaluating Next Action Predictions in Spreadsheets"
+  url: "https://arxiv.org/abs/2606.13802"
+  category: "evaluation"
+  tags: ["spreadsheet", "structured-data", "benchmark", "icml-2026"]
+- year: 2026
+  title: "Temporal Preference Optimization for Unsupervised Retrieval"
+  url: "https://arxiv.org/abs/2606.17664"
+  category: "rag-data"
+  tags: ["retrieval", "temporal-relevance", "unsupervised", "icml-2026"]
 - year: 2023
   title: "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples"
   url: "https://arxiv.org/abs/2311.04850"
@@ -296,8 +346,293 @@
   url: "https://arxiv.org/abs/2302.10149"
   category: "data-security"
   tags: ["poisoning", "web-data"]
+- year: 2026
+  title: "Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework"
+  url: "https://arxiv.org/abs/2606.16242"
+  category: "data-security"
+  tags: ["poisoning", "jailbreak-detection", "safety", "icml-2026"]
 - year: 2023
   title: "Poisoning Language Models During Instruction Tuning"
   url: "https://arxiv.org/abs/2305.00944"
   category: "data-security"
   tags: ["poisoning", "instruction-tuning"]
+- year: 2026
+  title: "MixtureVitae: Open Web-Scale Pretraining Dataset With High Quality Instruction and Reasoning Data Built from Permissive-First Text Sources"
+  url: "https://arxiv.org/abs/2509.25531"
+  category: "open-corpora"
+  tags: ["permissive-data", "pretraining", "data-curation", "icml-2026"]
+- year: 2026
+  title: "InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition"
+  url: "https://arxiv.org/abs/2605.02364"
+  category: "pretraining-data"
+  tags: ["scaling-laws", "data-mixture", "data-quality", "icml-2026"]
+- year: 2026
+  title: "Capacity-Aware Mixture Law Enables Efficient LLM Data Optimization"
+  url: "https://arxiv.org/abs/2603.08022"
+  category: "pretraining-data"
+  tags: ["data-mixture", "scaling-laws", "llm", "icml-2026"]
+- year: 2026
+  title: "BLISS: A Lightweight Bilevel Influence Scoring Method for Data Selection in Language Model Pretraining"
+  url: "https://arxiv.org/abs/2510.06048"
+  category: "pretraining-data"
+  tags: ["data-selection", "influence", "pretraining", "icml-2026"]
+- year: 2026
+  title: "GEM: Geometric Entropy Mixing for Optimal LLM Data Curation"
+  url: "https://arxiv.org/abs/2605.26121"
+  category: "pretraining-data"
+  tags: ["data-mixture", "semantic-curation", "entropy", "icml-2026"]
+- year: 2026
+  title: "Target-Oriented Pretraining Data Selection via Neuron-Activated Graph"
+  url: "https://arxiv.org/abs/2604.15706"
+  category: "pretraining-data"
+  tags: ["data-selection", "activation-graph", "target-domain", "icml-2026"]
+- year: 2026
+  title: "MergeMix: Optimizing Mid-Training Data Mixtures via Learnable Model Merging"
+  url: "https://arxiv.org/abs/2601.17858"
+  category: "pretraining-data"
+  tags: ["data-mixture", "mid-training", "model-merging", "icml-2026"]
+- year: 2026
+  title: "D$^3$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training"
+  url: "https://arxiv.org/abs/2605.31164"
+  category: "pretraining-data"
+  tags: ["data-scheduling", "influence-graph", "llm", "icml-2026"]
+- year: 2026
+  title: "OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration"
+  url: "https://arxiv.org/abs/2602.05400"
+  category: "pretraining-data"
+  tags: ["token-selection", "data-selection", "pretraining", "icml-2026"]
+- year: 2026
+  title: "Procedural Pretraining: Warming Up Language Models with Abstract Data"
+  url: "https://arxiv.org/abs/2601.21725"
+  category: "pretraining-data"
+  tags: ["procedural-data", "warmup", "pretraining", "icml-2026"]
+- year: 2026
+  title: "Understanding Data Temporality Impact on Large Language Models Pre-training"
+  url: "https://arxiv.org/abs/2605.22769"
+  category: "pretraining-data"
+  tags: ["temporality", "pretraining", "freshness", "icml-2026"]
+- year: 2026
+  title: "When Data Is Scarce: Scaling Sparse Language Models with Repeated Training"
+  url: "https://arxiv.org/abs/2606.01155"
+  category: "pretraining-data"
+  tags: ["data-scarcity", "repeated-training", "sparse-lm", "icml-2026"]
+- year: 2026
+  title: "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training"
+  url: "https://arxiv.org/abs/2602.00747"
+  category: "pretraining-data"
+  tags: ["data-mixture", "model-merging", "proxy-search", "icml-2026"]
+- year: 2026
+  title: "On the Difficulty of Learning a Meta-network for Training Data Selection"
+  url: "https://arxiv.org/abs/2606.00571"
+  category: "pretraining-data"
+  tags: ["data-selection", "meta-network", "training-dynamics", "icml-2026"]
+- year: 2026
+  title: "Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts"
+  url: "https://arxiv.org/abs/2604.08519"
+  category: "pretraining-data"
+  tags: ["data-pruning", "memorization", "facts", "icml-2026"]
+- year: 2026
+  title: "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data"
+  url: "https://arxiv.org/abs/2604.14164"
+  category: "alignment-data"
+  tags: ["sft-data", "reasoning", "teacher-student", "icml-2026"]
+- year: 2026
+  title: "Training Data Efficiency in Multimodal Process Reward Models"
+  url: "https://arxiv.org/abs/2602.04145"
+  category: "alignment-data"
+  tags: ["process-reward-model", "multimodal", "data-efficiency", "icml-2026"]
+- year: 2026
+  title: "AIR: Post-training Data Selection for Reasoning via Attention Head Influence"
+  url: "https://arxiv.org/abs/2512.13279"
+  category: "alignment-data"
+  tags: ["post-training", "reasoning", "attention-heads", "icml-2026"]
+- year: 2026
+  title: "ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning"
+  url: "https://arxiv.org/abs/2603.09692"
+  category: "alignment-data"
+  tags: ["preference-data", "active-learning", "rlhf", "icml-2026"]
+- year: 2026
+  title: "Differentially Private Preference Data Synthesis for Large Language Model Alignment"
+  url: "https://arxiv.org/abs/2605.30808"
+  category: "alignment-data"
+  tags: ["preference-data", "differential-privacy", "synthetic-data", "icml-2026"]
+- year: 2026
+  title: "From Parameters to Data: A Task-Parameter-Guided Fine-Tuning Pipeline for Efficient LLM Alignment"
+  url: "https://arxiv.org/abs/2605.21558"
+  category: "alignment-data"
+  tags: ["fine-tuning", "data-mining", "alignment", "icml-2026"]
+- year: 2026
+  title: "GIST: Targeted Data Selection for Instruction Tuning via Coupled Optimization Geometry"
+  url: "https://arxiv.org/abs/2602.18584"
+  category: "alignment-data"
+  tags: ["instruction-tuning", "data-selection", "optimization-geometry", "icml-2026"]
+- year: 2026
+  title: "Single-Rollout Hidden-State Dynamics for Training-Free RLVR Data Selection"
+  url: "https://arxiv.org/abs/2605.28631"
+  category: "alignment-data"
+  tags: ["rlvr", "data-selection", "hidden-states", "icml-2026"]
+- year: 2026
+  title: "Theoretical Perspectives on Data Quality and Synergistic Effects in Pre- and Post-Training Reasoning Models"
+  url: "https://arxiv.org/abs/2603.01293"
+  category: "alignment-data"
+  tags: ["data-quality", "reasoning", "theory", "icml-2026"]
+- year: 2026
+  title: "Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs"
+  url: "https://arxiv.org/abs/2602.10388"
+  category: "alignment-data"
+  tags: ["synthetic-data", "feature-space", "post-training", "icml-2026"]
+- year: 2026
+  title: "Convex Dataset Valuation for Post-Training"
+  url: "https://arxiv.org/abs/2605.16704"
+  category: "alignment-data"
+  tags: ["dataset-valuation", "post-training", "data-selection", "icml-2026"]
+- year: 2026
+  title: "CAReDiO: Enhancing Cultural Alignment of LLM via Representativeness and Distinctiveness Guided Data Optimization"
+  url: "https://icml.cc/virtual/2026/papers.html?filter=titles&search=CAReDiO%3A%20Enhancing%20Cultural%20Alignment%20of%20LLM%20via%20Representativeness%20and%20Distinctiveness%20Guided%20Data%20Optimization"
+  category: "alignment-data"
+  tags: ["cultural-alignment", "data-optimization", "representativeness", "icml-2026"]
+- year: 2026
+  title: "Retaining by Doing: The Role of On-Policy Data in Mitigating Forgetting"
+  url: "https://arxiv.org/abs/2510.18874"
+  category: "continual-replay-data"
+  tags: ["on-policy-data", "forgetting", "post-training", "icml-2026"]
+- year: 2026
+  title: "R1-SyntheticVL: Is Synthetic Data from Generative Models Ready for Multimodal Large Language Model?"
+  url: "https://arxiv.org/abs/2602.03300"
+  category: "synthetic-data"
+  tags: ["multimodal", "synthetic-data", "mllm", "icml-2026"]
+- year: 2026
+  title: "Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation"
+  url: "https://arxiv.org/abs/2602.07298"
+  category: "synthetic-data"
+  tags: ["synthetic-data", "recommendation", "scaling-laws", "icml-2026"]
+- year: 2026
+  title: "PluRel: Synthetic Data unlocks Scaling Laws for Relational Foundation Models"
+  url: "https://arxiv.org/abs/2602.04029"
+  category: "synthetic-data"
+  tags: ["synthetic-data", "relational-foundation-models", "scaling-laws", "icml-2026"]
+- year: 2026
+  title: "Privasis: Synthesizing the Largest \"Public\" Private Dataset from Scratch"
+  url: "https://arxiv.org/abs/2602.03183"
+  category: "synthetic-data"
+  tags: ["synthetic-data", "privacy", "dataset", "icml-2026"]
+- year: 2026
+  title: "Ambient Dataloops: Generative Models for Dataset Refinement"
+  url: "https://arxiv.org/abs/2601.15417"
+  category: "synthetic-data"
+  tags: ["dataset-refinement", "generative-models", "synthetic-data", "icml-2026"]
+- year: 2026
+  title: "Curated Synthetic Data Doesn't Have to Collapse: A Theoretical Study of Generative Retraining with Pluralistic Preferences"
+  url: "https://arxiv.org/abs/2605.07724"
+  category: "synthetic-data"
+  tags: ["model-collapse", "synthetic-data", "theory", "icml-2026"]
+- year: 2026
+  title: "Reasoning-Driven Synthetic Data Generation and Evaluation"
+  url: "https://arxiv.org/abs/2603.29791"
+  category: "synthetic-data"
+  tags: ["synthetic-data", "reasoning", "evaluation", "icml-2026"]
+- year: 2026
+  title: "Data Provenance Auditing of Fine-Tuned Large Language Models with a Text-Preserving Technique"
+  url: "https://arxiv.org/abs/2510.09655"
+  category: "data-attribution"
+  tags: ["provenance", "fine-tuning", "auditing", "icml-2026"]
+- year: 2026
+  title: "GUDA: Counterfactual Group-wise Training Data Attribution for Diffusion Models via Unlearning"
+  url: "https://arxiv.org/abs/2601.22651"
+  category: "data-attribution"
+  tags: ["diffusion", "group-attribution", "unlearning", "icml-2026"]
+- year: 2026
+  title: "Step-resolved data attribution for looped transformers"
+  url: "https://arxiv.org/abs/2602.10097"
+  category: "data-attribution"
+  tags: ["step-resolved", "transformers", "influence", "icml-2026"]
+- year: 2026
+  title: "Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units"
+  url: "https://arxiv.org/abs/2601.21996"
+  category: "data-attribution"
+  tags: ["mechanistic-interpretability", "training-data", "llm", "icml-2026"]
+- year: 2026
+  title: "Is Data Shapley Not Better than Random in Data Selection? Ask NASH"
+  url: "https://arxiv.org/abs/2605.10684"
+  category: "data-attribution"
+  tags: ["data-shapley", "data-selection", "valuation", "icml-2026"]
+- year: 2026
+  title: "ExPLAIND: Unifying Model, Data, and Training Attribution to Study Model Behavior"
+  url: "https://arxiv.org/abs/2505.20076"
+  category: "data-attribution"
+  tags: ["model-attribution", "data-attribution", "training-attribution", "icml-2026"]
+- year: 2026
+  title: "DataGuard: A Non-intrusive Dataset Auditing Framework via Differential Information Forensics"
+  url: "https://icml.cc/virtual/2026/papers.html?filter=titles&search=DataGuard%3A%20A%20Non-intrusive%20Dataset%20Auditing%20Framework%20via%20Differential%20Information%20Forensics"
+  category: "data-attribution"
+  tags: ["dataset-auditing", "information-forensics", "provenance", "icml-2026"]
+- year: 2026
+  title: "Extracting alignment data in open models"
+  url: "https://arxiv.org/abs/2510.18554"
+  category: "privacy"
+  tags: ["alignment-data", "data-extraction", "open-models", "icml-2026"]
+- year: 2026
+  title: "Provable Training Data Identification for Large Language Models"
+  url: "https://arxiv.org/abs/2510.09717"
+  category: "privacy"
+  tags: ["training-data-identification", "llm", "membership-inference", "icml-2026"]
+- year: 2026
+  title: "Rethinking Pretraining Data Detection for LLMs: From Local to Global"
+  url: "https://icml.cc/virtual/2026/papers.html?filter=titles&search=Rethinking%20Pretraining%20Data%20Detection%20for%20LLMs%3A%20From%20Local%20to%20Global"
+  category: "privacy"
+  tags: ["pretraining-data-detection", "llm", "privacy", "icml-2026"]
+- year: 2026
+  title: "Privacy Risks of Agentic Inferential Capabilities in Data Linkage Attacks"
+  url: "https://icml.cc/virtual/2026/papers.html?filter=titles&search=Privacy%20Risks%20of%20Agentic%20Inferential%20Capabilities%20in%20Data%20Linkage%20Attacks"
+  category: "privacy"
+  tags: ["agents", "data-linkage", "privacy-risk", "icml-2026"]
+- year: 2026
+  title: "RECOVER: Reliable Detection of Unauthorized Data Usage in Text-to-Image Diffusion Models via Inversion Robustness"
+  url: "https://icml.cc/virtual/2026/papers.html?filter=titles&search=RECOVER%3A%20Reliable%20Detection%20of%20Unauthorized%20Data%20Usage%20in%20Text-to-Image%20Diffusion%20Models%20via%20Inversion%20Robustness"
+  category: "privacy"
+  tags: ["unauthorized-data-use", "diffusion", "inversion", "icml-2026"]
+- year: 2026
+  title: "Position: The Data Provenance-Parametric Divide in Large Language Models"
+  url: "https://icml.cc/virtual/2026/papers.html?filter=titles&search=Position%3A%20The%20Data%20Provenance-Parametric%20Divide%20in%20Large%20Language%20Models"
+  category: "data-governance"
+  tags: ["data-provenance", "llm", "position", "icml-2026"]
+- year: 2026
+  title: "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations"
+  url: "https://arxiv.org/abs/2505.14101"
+  category: "evaluation"
+  tags: ["hallucination", "multilingual", "knowledge-graph", "icml-2026"]
+- year: 2026
+  title: "DSGym: A Holistic Framework for Evaluating and Training Data Science Agents"
+  url: "https://arxiv.org/abs/2601.16344"
+  category: "evaluation"
+  tags: ["data-science-agents", "benchmark", "training-environment", "icml-2026"]
+- year: 2026
+  title: "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science"
+  url: "https://arxiv.org/abs/2510.16872"
+  category: "evaluation"
+  tags: ["data-science-agents", "agentic-llm", "benchmark", "icml-2026"]
+- year: 2026
+  title: "Hunt Instead of Wait: Evaluating Deep Data Research on Large Language Models"
+  url: "https://arxiv.org/abs/2602.02039"
+  category: "evaluation"
+  tags: ["data-research", "open-ended-benchmark", "llm", "icml-2026"]
+- year: 2026
+  title: "Data Selection for Fine-tuning Vision Language Models via Cross Modal Alignment Trajectories"
+  url: "https://arxiv.org/abs/2510.01454"
+  category: "multimodal-data"
+  tags: ["vision-language", "data-selection", "fine-tuning", "icml-2026"]
+- year: 2026
+  title: "OpenGPT-4o-Image: A Comprehensive Dataset for Advanced Image Generation and Editing"
+  url: "https://arxiv.org/abs/2509.24900"
+  category: "multimodal-data"
+  tags: ["image-generation", "image-editing", "dataset", "icml-2026"]
+- year: 2026
+  title: "TextAtlas5M: A Large-scale Dataset for Dense Text Image Generation"
+  url: "https://arxiv.org/abs/2502.07870"
+  category: "multimodal-data"
+  tags: ["text-image", "dataset", "dense-text", "icml-2026"]
+- year: 2026
+  title: "Detecting and Filtering Unsafe Training Data via Data Attribution"
+  url: "https://arxiv.org/abs/2502.11411"
+  category: "safety-data"
+  tags: ["unsafe-data", "data-attribution", "filtering", "icml-2026"]
