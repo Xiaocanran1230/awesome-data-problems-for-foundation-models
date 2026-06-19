@@ -340,22 +340,22 @@
   title: "Beyond A Single AI Cluster: A Survey of Decentralized LLM Training"
   url: "https://arxiv.org/abs/2503.11023"
   category: "federated-data"
-  tags: ["decentralized-training", "distributed-data", "survey"]
+  tags: ["decentralized-training", "distributed-data", "survey", "emnlp-2025"]
 - year: 2025
   title: "FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models"
   url: "https://arxiv.org/abs/2506.02961"
   category: "federated-data"
   tags: ["federated-learning", "fine-tuning", "benchmark", "domain-data"]
-- year: 2024
+- year: 2026
   title: "Federated Large Language Models: Current Progress and Future Directions"
   url: "https://arxiv.org/abs/2409.15723"
   category: "federated-data"
-  tags: ["federated-learning", "survey", "heterogeneous-data"]
-- year: 2024
+  tags: ["federated-learning", "survey", "heterogeneous-data", "pakdd-2026"]
+- year: 2025
   title: "Photon: Federated LLM Pre-Training"
   url: "https://arxiv.org/abs/2411.02908"
   category: "federated-data"
-  tags: ["federated-learning", "pretraining", "heterogeneous-data", "low-communication"]
+  tags: ["federated-learning", "pretraining", "heterogeneous-data", "low-communication", "mlsys-2025"]
 - year: 2024
   title: "FedLLM-Bench: Realistic Benchmarks for Federated Learning of Large Language Models"
   url: "https://arxiv.org/abs/2406.04845"
@@ -376,11 +376,11 @@
   url: "https://arxiv.org/abs/2310.10049"
   category: "federated-data"
   tags: ["federated-learning", "framework", "enterprise-data", "privacy"]
-- year: 2023
+- year: 2024
   title: "Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes"
   url: "https://arxiv.org/abs/2312.06353"
   category: "federated-data"
-  tags: ["federated-learning", "full-parameter-tuning", "communication-efficient"]
+  tags: ["federated-learning", "full-parameter-tuning", "communication-efficient", "icml-2024"]
 - year: 2024
   title: "LiveBench: A Challenging, Contamination-Free LLM Benchmark"
   url: "https://arxiv.org/abs/2406.19314"
