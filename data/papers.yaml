@@ -336,6 +336,51 @@
   url: "https://arxiv.org/abs/2407.06460"
   category: "unlearning"
   tags: ["machine-unlearning", "benchmark"]
+- year: 2025
+  title: "Beyond A Single AI Cluster: A Survey of Decentralized LLM Training"
+  url: "https://arxiv.org/abs/2503.11023"
+  category: "federated-data"
+  tags: ["decentralized-training", "distributed-data", "survey"]
+- year: 2025
+  title: "FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models"
+  url: "https://arxiv.org/abs/2506.02961"
+  category: "federated-data"
+  tags: ["federated-learning", "fine-tuning", "benchmark", "domain-data"]
+- year: 2024
+  title: "Federated Large Language Models: Current Progress and Future Directions"
+  url: "https://arxiv.org/abs/2409.15723"
+  category: "federated-data"
+  tags: ["federated-learning", "survey", "heterogeneous-data"]
+- year: 2024
+  title: "Photon: Federated LLM Pre-Training"
+  url: "https://arxiv.org/abs/2411.02908"
+  category: "federated-data"
+  tags: ["federated-learning", "pretraining", "heterogeneous-data", "low-communication"]
+- year: 2024
+  title: "FedLLM-Bench: Realistic Benchmarks for Federated Learning of Large Language Models"
+  url: "https://arxiv.org/abs/2406.04845"
+  category: "federated-data"
+  tags: ["federated-learning", "benchmark", "instruction-tuning", "preference-alignment"]
+- year: 2024
+  title: "OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning"
+  url: "https://arxiv.org/abs/2402.06954"
+  category: "federated-data"
+  tags: ["federated-learning", "private-data", "instruction-tuning", "alignment"]
+- year: 2023
+  title: "DiLoCo: Distributed Low-Communication Training of Language Models"
+  url: "https://arxiv.org/abs/2311.08105"
+  category: "federated-data"
+  tags: ["decentralized-training", "low-communication", "language-models"]
+- year: 2023
+  title: "FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models"
+  url: "https://arxiv.org/abs/2310.10049"
+  category: "federated-data"
+  tags: ["federated-learning", "framework", "enterprise-data", "privacy"]
+- year: 2023
+  title: "Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes"
+  url: "https://arxiv.org/abs/2312.06353"
+  category: "federated-data"
+  tags: ["federated-learning", "full-parameter-tuning", "communication-efficient"]
 - year: 2024
   title: "LiveBench: A Challenging, Contamination-Free LLM Benchmark"
   url: "https://arxiv.org/abs/2406.19314"

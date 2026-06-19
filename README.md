@@ -18,6 +18,7 @@ The taxonomy follows the DATA-FM workshop themes: data collection and curation, 
 - [Synthetic Data and Model Collapse](#synthetic-data-and-model-collapse)
 - [Data Attribution, Valuation, and Influence](#data-attribution-valuation-and-influence)
 - [Privacy, Copyright, Consent, and Unlearning](#privacy-copyright-consent-and-unlearning)
+- [Federated and Decentralized LLM Data](#federated-and-decentralized-llm-data)
 - [Benchmark Contamination, Freshness, and RAG Evaluation](#benchmark-contamination-freshness-and-rag-evaluation)
 - [RAG and Memory Systems for LLM Agents](#rag-and-memory-systems-for-llm-agents)
 - [Multimodal and Vision-Language Data](#multimodal-and-vision-language-data)
@@ -295,6 +296,20 @@ Research on the boundaries around data: what models remember, what they should f
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2310.16789) - Min-K% Prob and WIKIMIA.
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Scalable Extraction of Training Data from (Production) Language Models](https://arxiv.org/abs/2311.17035) - Practical extraction from open and production LMs.
 - ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Large Language Model Unlearning](https://arxiv.org/abs/2310.10683) - Early formulation of LLM unlearning.
+
+## Federated and Decentralized LLM Data
+
+When data cannot be pooled, training becomes a question of boundaries: these works study private clients, non-IID shards, cross-silo coordination, and low-communication learning over distributed LLM data.
+
+- ![2025 Survey](https://img.shields.io/badge/2025-Survey-9cf) [Beyond A Single AI Cluster: A Survey of Decentralized LLM Training](https://arxiv.org/abs/2503.11023) - Surveys resource-driven decentralized LLM training across clusters, datacenters, and global regions.
+- ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models](https://arxiv.org/abs/2506.02961) - Cross-domain federated fine-tuning benchmark covering general NLP, finance, medical, and coding data.
+- ![2024 Survey](https://img.shields.io/badge/2024-Survey-9cf) [Federated Large Language Models: Current Progress and Future Directions](https://arxiv.org/abs/2409.15723) - Survey of FedLLM fine-tuning, prompt learning, heterogeneous client data, and communication challenges.
+- ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [Photon: Federated LLM Pre-Training](https://arxiv.org/abs/2411.02908) - End-to-end cross-silo federated pretraining system for LLMs under weakly connected, heterogeneous data settings.
+- ![2024 Dataset](https://img.shields.io/badge/2024-Dataset-yellow) [FedLLM-Bench: Realistic Benchmarks for Federated Learning of Large Language Models](https://arxiv.org/abs/2406.04845) - Benchmark with realistic client diversity for federated instruction tuning and preference alignment.
+- ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning](https://arxiv.org/abs/2402.06954) - Research framework for federated instruction tuning and value alignment over decentralized private data.
+- ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [DiLoCo: Distributed Low-Communication Training of Language Models](https://arxiv.org/abs/2311.08105) - Low-communication language model training across weakly connected compute and data islands.
+- ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models](https://arxiv.org/abs/2310.10049) - Industrial federated LLM framework for scattered enterprise data, privacy-preserving training, and PEFT.
+- ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes](https://arxiv.org/abs/2312.06353) - Federated full-parameter LLM tuning method that reduces client-server communication to seeds and scalar gradients.
 
 ## Benchmark Contamination, Freshness, and RAG Evaluation
 
