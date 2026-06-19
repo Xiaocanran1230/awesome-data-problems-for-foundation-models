@@ -19,6 +19,7 @@ The taxonomy follows the DATA-FM workshop themes: data collection and curation, 
 - [Data Attribution, Valuation, and Influence](#data-attribution-valuation-and-influence)
 - [Privacy, Copyright, Consent, and Unlearning](#privacy-copyright-consent-and-unlearning)
 - [Benchmark Contamination, Freshness, and RAG Evaluation](#benchmark-contamination-freshness-and-rag-evaluation)
+- [RAG and Memory Systems for LLM Agents](#rag-and-memory-systems-for-llm-agents)
 - [Multimodal and Vision-Language Data](#multimodal-and-vision-language-data)
 - [Safety, Fairness, and Data Poisoning](#safety-fairness-and-data-poisoning)
 - [Classic References](#classic-references)
@@ -329,6 +330,12 @@ Evaluation is also a data problem: benchmarks must stay fresh, retrieval corpora
 - ![2023 Resource](https://img.shields.io/badge/2023-Resource-informational) [FreshLLMs](https://arxiv.org/abs/2310.03214) - FreshQA and search-augmented prompting for changing knowledge.
 - ![2024 NAACL](https://img.shields.io/badge/2024-NAACL-yellowgreen) [ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2311.09476) - Synthetic judges plus small human sets for RAG evaluation.
 - ![2023 Resource](https://img.shields.io/badge/2023-Resource-informational) [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511) - Trains models to decide when and how to retrieve.
+
+## RAG and Memory Systems for LLM Agents
+
+Agent memory is where retrieval becomes control: these works study how histories, tools, observations, and execution states are stored, revised, and reused across long-horizon tasks.
+
+- ![2026 arXiv](https://img.shields.io/badge/2026-arXiv-lightgrey) [Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents](https://arxiv.org/abs/2606.06090) - Proposes MAGE, a hierarchical execution-state memory tree that grows, compresses, maintains, and revises agent trajectories to preserve valid progress while isolating errors.
 
 ## Multimodal and Vision-Language Data
 

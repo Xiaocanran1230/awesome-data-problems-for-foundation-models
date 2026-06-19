@@ -381,6 +381,11 @@
   url: "https://arxiv.org/abs/2311.09476"
   category: "rag-data"
   tags: ["rag", "evaluation"]
+- year: 2026
+  title: "Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents"
+  url: "https://arxiv.org/abs/2606.06090"
+  category: "agent-rag-memory"
+  tags: ["agent-memory", "rag", "long-horizon-agents", "execution-state"]
 - year: 2024
   title: "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
   url: "https://arxiv.org/abs/2406.16860"
