@@ -299,17 +299,10 @@ Research on the boundaries around data: what models remember, what they should f
 
 ## Federated and Decentralized LLM Data
 
-When data cannot be pooled, training becomes a question of boundaries: these works study private clients, non-IID shards, cross-silo coordination, and low-communication learning over distributed LLM data.
+When data cannot be pooled, the dataset itself becomes a benchmark object: these works focus on realistic client splits, domain diversity, private-data boundaries, and evaluation protocols for federated LLM training.
 
-- ![2025 EMNLP](https://img.shields.io/badge/2025-EMNLP-orange) [Beyond A Single AI Cluster: A Survey of Decentralized LLM Training](https://arxiv.org/abs/2503.11023) - EMNLP 2025 survey of resource-driven decentralized LLM training across clusters, datacenters, and global regions.
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models](https://arxiv.org/abs/2506.02961) - Cross-domain federated fine-tuning benchmark covering general NLP, finance, medical, and coding data.
-- ![2026 PAKDD](https://img.shields.io/badge/2026-PAKDD-blueviolet) [Federated Large Language Models: Current Progress and Future Directions](https://arxiv.org/abs/2409.15723) - PAKDD 2026 survey of FedLLM fine-tuning, prompt learning, heterogeneous client data, and communication challenges.
-- ![2025 MLSys](https://img.shields.io/badge/2025-MLSys-teal) [Photon: Federated LLM Pre-Training](https://arxiv.org/abs/2411.02908) - MLSys 2025 end-to-end cross-silo federated pretraining system for LLMs under weakly connected, heterogeneous data settings.
 - ![2024 Dataset](https://img.shields.io/badge/2024-Dataset-yellow) [FedLLM-Bench: Realistic Benchmarks for Federated Learning of Large Language Models](https://arxiv.org/abs/2406.04845) - Benchmark with realistic client diversity for federated instruction tuning and preference alignment.
-- ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning](https://arxiv.org/abs/2402.06954) - Research framework for federated instruction tuning and value alignment over decentralized private data.
-- ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [DiLoCo: Distributed Low-Communication Training of Language Models](https://arxiv.org/abs/2311.08105) - Low-communication language model training across weakly connected compute and data islands.
-- ![2023 arXiv](https://img.shields.io/badge/2023-arXiv-lightgrey) [FATE-LLM: A Industrial Grade Federated Learning Framework for Large Language Models](https://arxiv.org/abs/2310.10049) - Industrial federated LLM framework for scattered enterprise data, privacy-preserving training, and PEFT.
-- ![2024 ICML](https://img.shields.io/badge/2024-ICML-blue) [Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes](https://arxiv.org/abs/2312.06353) - ICML 2024 federated full-parameter LLM tuning method that reduces client-server communication to seeds and scalar gradients.
 
 ## Benchmark Contamination, Freshness, and RAG Evaluation
 
