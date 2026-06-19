@@ -176,6 +176,11 @@
   url: "https://arxiv.org/abs/2606.16152"
   category: "alignment-data"
   tags: ["distillation-data", "reasoning", "data-quality", "icml-2026"]
+- year: 2026
+  title: "Why Supervised Fine-Tuning Fails to Learn: A Systematic Study of Incomplete Learning in Large Language Models"
+  url: "https://arxiv.org/abs/2604.10079"
+  category: "alignment-data"
+  tags: ["supervised-fine-tuning", "incomplete-learning", "data-quality", "acl-2026"]
 - year: 2024
   title: "MiniLLM: On-Policy Distillation of Large Language Models"
   url: "https://arxiv.org/abs/2306.08543"
