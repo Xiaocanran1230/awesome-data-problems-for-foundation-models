@@ -181,6 +181,11 @@
   url: "https://arxiv.org/abs/2604.10079"
   category: "alignment-data"
   tags: ["supervised-fine-tuning", "incomplete-learning", "data-quality", "acl-2026"]
+- year: 2026
+  title: "RLVR without Ineffective Samples: Group Prioritized Off-Policy Optimization for LLM Reasoning"
+  url: "https://arxiv.org/abs/2606.01281"
+  category: "alignment-data"
+  tags: ["rlvr", "off-policy-data", "replay", "reasoning", "data-efficiency"]
 - year: 2024
   title: "MiniLLM: On-Policy Distillation of Large Language Models"
   url: "https://arxiv.org/abs/2306.08543"
