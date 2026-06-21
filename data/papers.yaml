@@ -227,6 +227,11 @@
   category: "continual-replay-data"
   tags: ["memory-replay", "continual-learning", "llm", "acl-2026"]
 - year: 2025
+  title: "Towards Effective and Efficient Continual Pre-training of Large Language Models"
+  url: "https://aclanthology.org/2025.acl-long.289/"
+  category: "continual-replay-data"
+  tags: ["continual-pretraining", "data-mixture", "curriculum", "synthetic-data", "acl-2025"]
+- year: 2025
   title: "Learning Dynamics in Continual Pre-Training for Large Language Models"
   url: "https://arxiv.org/abs/2505.07796"
   category: "continual-replay-data"
