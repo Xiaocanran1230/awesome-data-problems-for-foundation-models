@@ -627,6 +627,11 @@
   category: "synthetic-data"
   tags: ["synthetic-data", "reasoning", "evaluation", "icml-2026"]
 - year: 2026
+  title: "Not All Synthetic Data Is Yours to Learn From"
+  url: "https://arxiv.org/abs/2605.31126"
+  category: "synthetic-data"
+  tags: ["synthetic-data", "self-training", "data-utility", "verbatim-extraction"]
+- year: 2026
   title: "Data Provenance Auditing of Fine-Tuned Large Language Models with a Text-Preserving Technique"
   url: "https://arxiv.org/abs/2510.09655"
   category: "data-attribution"
