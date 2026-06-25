@@ -772,6 +772,16 @@
   category: "alignment-data"
   tags: ["iclr-2026", "alignment-data"]
 - year: 2026
+  title: "OpenThoughts-Agent: Data Recipes for Agentic Models"
+  url: "https://arxiv.org/abs/2606.24855"
+  category: "alignment-data"
+  tags: ["agent-data", "sft-data", "data-recipe", "rollout-filtering"]
+- year: 2026
+  title: "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents"
+  url: "https://arxiv.org/abs/2606.12087"
+  category: "alignment-data"
+  tags: ["search-agents", "task-synthesis", "shortcut-resistant", "trajectory-data"]
+- year: 2026
   title: "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents"
   url: "https://arxiv.org/abs/2606.22883"
   category: "alignment-data"
