@@ -231,7 +231,7 @@ Synthetic data is both a resource and a risk: this section tracks how generated 
 - ![2025 arXiv](https://img.shields.io/badge/2025-arXiv-lightgrey) [Escaping Model Collapse via Synthetic Data Verification](https://arxiv.org/abs/2510.16657) - Verified synthetic data and long-run convergence.
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [Is Model Collapse Inevitable?](https://arxiv.org/abs/2404.01413) - Shows accumulation of real plus synthetic data can avoid collapse.
 - ![2024 NeurIPS](https://img.shields.io/badge/2024-NeurIPS-purple) [Model Collapse Demystified: The Case of Regression](https://openreview.net/forum?id=bioHNTRnQk) - Theoretical analysis in regression.
-- ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [A Tale of Tails: Model Collapse as a Change of Scaling Laws](https://arxiv.org/abs/2402.07043) - Tail behavior and scaling laws under collapse.
+- ![2024 ICML](https://img.shields.io/badge/2024-ICML-blue) [A Tale of Tails: Model Collapse as a Change of Scaling Laws](https://arxiv.org/abs/2402.07043) - Tail behavior and scaling laws under collapse.
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [How Bad is Training on Synthetic Data?](https://arxiv.org/abs/2404.05090) - Statistical analysis of language model collapse.
 - ![2024 arXiv](https://img.shields.io/badge/2024-arXiv-lightgrey) [A Note on Shumailov et al. (2024)](https://arxiv.org/abs/2410.12954) - Follow-up theoretical note on recursive generation.
 - ![2024 Nature](https://img.shields.io/badge/2024-Nature-success) [The Curse of Recursion: Training on Generated Data Makes Models Forget](https://arxiv.org/abs/2305.17493) - Foundational model-collapse paper.

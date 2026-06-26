@@ -286,6 +286,11 @@
   url: "https://arxiv.org/abs/2404.01413"
   category: "synthetic-data"
   tags: ["model-collapse", "synthetic-data"]
+- year: 2024
+  title: "A Tale of Tails: Model Collapse as a Change of Scaling Laws"
+  url: "https://arxiv.org/abs/2402.07043"
+  category: "synthetic-data"
+  tags: ["model-collapse", "scaling-laws", "icml-2024"]
 - year: 2023
   title: "The Curse of Recursion: Training on Generated Data Makes Models Forget"
   url: "https://arxiv.org/abs/2305.17493"
