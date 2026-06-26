@@ -267,6 +267,11 @@
   category: "continual-replay-data"
   tags: ["old-data-replay", "continual-pretraining", "llm"]
 - year: 2025
+  title: "A Closer Look at Model Collapse: From a Generalization-to-Memorization Perspective"
+  url: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/39d3b980155d3d52613e412b018004a4-Abstract-Conference.html"
+  category: "synthetic-data"
+  tags: ["model-collapse", "memorization", "generalization", "neurips-2025"]
+- year: 2025
   title: "Multi-modal Synthetic Data Training and Model Collapse"
   url: "https://arxiv.org/abs/2505.08803"
   category: "synthetic-data"
