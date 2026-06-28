@@ -647,6 +647,11 @@
   category: "synthetic-data"
   tags: ["synthetic-data", "self-training", "data-utility", "verbatim-extraction"]
 - year: 2026
+  title: "Domain-Specific Data Synthesis for LLMs via Minimal Sufficient Representation Learning"
+  url: "https://arxiv.org/abs/2605.30039"
+  category: "synthetic-data"
+  tags: ["synthetic-data", "domain-adaptation", "minimal-sufficient-representation", "kdd-2026"]
+- year: 2026
   title: "Data Provenance Auditing of Fine-Tuned Large Language Models with a Text-Preserving Technique"
   url: "https://arxiv.org/abs/2510.09655"
   category: "data-attribution"
