@@ -147,6 +147,11 @@
   category: "alignment-data"
   tags: ["self-distillation", "rubric-guidance", "post-training"]
 - year: 2026
+  title: "Learning from Evolving Training Dynamics: An Entropy-Maximizing Data Curation Strategy for LLM Supervised Post-Training"
+  url: "https://aclanthology.org/2026.acl-long.505/"
+  category: "alignment-data"
+  tags: ["supervised-post-training", "data-curation", "training-dynamics", "acl-2026"]
+- year: 2026
   title: "Beyond Rejection Sampling: Trajectory Fusion for Scaling Mathematical Reasoning"
   url: "https://arxiv.org/abs/2602.04391"
   category: "alignment-data"
